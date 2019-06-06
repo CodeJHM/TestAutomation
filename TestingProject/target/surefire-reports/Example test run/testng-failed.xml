@@ -6,8 +6,8 @@
       <class name="TestingProject.TestingProject.AppTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="moveBlog"/>
           <include name="afterTest"/>
+          <include name="monthBlog"/>
         </methods>
       </class> <!-- TestingProject.TestingProject.AppTest -->
     </classes>

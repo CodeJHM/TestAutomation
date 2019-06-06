@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Example test run" duration-ms="16513" started-at="2019-06-06T07:25:59Z" finished-at="2019-06-06T07:26:16Z">
+  <suite name="Example test run" duration-ms="15204" started-at="2019-06-06T12:03:42Z" finished-at="2019-06-06T12:03:57Z">
     <groups>
     </groups>
-    <test name="Simple Test" duration-ms="16513" started-at="2019-06-06T07:25:59Z" finished-at="2019-06-06T07:26:16Z">
+    <test name="Simple Test" duration-ms="15204" started-at="2019-06-06T12:03:42Z" finished-at="2019-06-06T12:03:57Z">
       <class name="TestingProject.TestingProject.AppTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestingProject.TestingProject.AppTest@2c8d66b2]" name="beforeTest" is-config="true" duration-ms="3141" started-at="2019-06-06T07:25:59Z" finished-at="2019-06-06T07:26:02Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="beforeTest" is-config="true" duration-ms="3219" started-at="2019-06-06T12:03:42Z" finished-at="2019-06-06T12:03:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getOpen()[pri:1, instance:TestingProject.TestingProject.AppTest@2c8d66b2]" name="getOpen" duration-ms="2588" started-at="2019-06-06T07:26:02Z" finished-at="2019-06-06T07:26:05Z">
+        <test-method status="PASS" signature="getOpen()[pri:1, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="getOpen" duration-ms="2669" started-at="2019-06-06T12:03:45Z" finished-at="2019-06-06T12:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOpen -->
-        <test-method status="PASS" signature="moveBlog()[pri:2, instance:TestingProject.TestingProject.AppTest@2c8d66b2]" name="moveBlog" duration-ms="10079" started-at="2019-06-06T07:26:05Z" finished-at="2019-06-06T07:26:15Z">
+        <test-method status="PASS" signature="moveBlog()[pri:2, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="moveBlog" duration-ms="1940" started-at="2019-06-06T12:03:48Z" finished-at="2019-06-06T12:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveBlog -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestingProject.TestingProject.AppTest@2c8d66b2]" name="afterTest" is-config="true" duration-ms="687" started-at="2019-06-06T07:26:15Z" finished-at="2019-06-06T07:26:16Z">
+        <test-method status="PASS" signature="nextPage()[pri:3, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="nextPage" duration-ms="2287" started-at="2019-06-06T12:03:50Z" finished-at="2019-06-06T12:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextPage -->
+        <test-method status="PASS" signature="categoryMove()[pri:4, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="categoryMove" duration-ms="2190" started-at="2019-06-06T12:03:52Z" finished-at="2019-06-06T12:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryMove -->
+        <test-method status="PASS" signature="monthBlog()[pri:5, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="monthBlog" duration-ms="2238" started-at="2019-06-06T12:03:54Z" finished-at="2019-06-06T12:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthBlog -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestingProject.TestingProject.AppTest@3cb5cdba]" name="afterTest" is-config="true" duration-ms="646" started-at="2019-06-06T12:03:56Z" finished-at="2019-06-06T12:03:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
